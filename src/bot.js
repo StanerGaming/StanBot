@@ -1,3 +1,6 @@
+//StanBot Version 1
+//Made by: StanerGaming (sir.stan)
+
 require('dotenv').config();
 const { token } = process.env;
 const Axios = require('axios');
