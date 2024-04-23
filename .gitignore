@@ -1,5 +1,5 @@
 /node_modules
 /.env
 /src/botinfo.json
-discloud.config
-stanbot.zip
+/discloud.config
+/stanbot.zip
