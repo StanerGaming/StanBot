@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\commands",
+    "\\src\\commands\\tools",
+    "\\src\\events",
+    "\\src\\events\\client",
+    "\\src\\functions",
+    "\\src\\functions\\handlers"
+  ],
+  "SelectedNode": "\\src\\commands\\tools\\dogsarebad.js",
+  "PreviewInSolutionExplorer": false
+}
