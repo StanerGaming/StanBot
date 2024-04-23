@@ -24,7 +24,7 @@ module.exports = {
         const modID = interaction.member.id;
 
         async function callApi() {
-            const response = await fetch(`${botinfo.ModeratorID}`, { headers: { "Authorization": "92ee4d88-99b4-4232-8899-a5f025e51b68" } });
+            const response = await fetch(`https://api.blox.link/v4/public/guilds/954883852973789265/discord-to-roblox/${modID}`, { headers: { "Authorization": `${botinfo.ModeratorID}` } });
             const data = await response.json();
           
             return data;
