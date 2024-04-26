@@ -52,7 +52,7 @@ module.exports = {
                 });
             Axios.post(`https://apis.roblox.com/messaging-service/v1/universes/${botinfo.Roblox_Token}/topics/banPlayer`, {'message': `${BanInfo}` }, {
             headers:{
-            'x-api-key': 'Dg1OUDaa3EaYMPM+VCJZHVMr7B7VvRWIsMjfajvrKYpTLwOg',
+            'x-api-key': `${botinfo.Roblox_Key}`,
             'Content-Type': 'application/json' 
 
             }
