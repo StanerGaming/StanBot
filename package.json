@@ -17,6 +17,11 @@
     "discord-api-types": "^0.37.26",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
-    "noblox.js": "^4.14.1"
+    "noblox.js": "^4.14.1",
+    "uuidv4": "^6.2.13",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "wrangler": "^3.81.0"
   }
 }

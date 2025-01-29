@@ -1,4 +1,5 @@
 module.exports = {
+    
     name: 'interactionCreate',
     async execute(interaction, client){
         if (interaction.isChatInputCommand()){
@@ -15,6 +16,8 @@ module.exports = {
                     content: `Something went wrong while executing this command...`,
                     ephemeral: true
                 });
+                var statusCode = error.status;
+                var statusMsg = error.data.message;
             }
         }
 
