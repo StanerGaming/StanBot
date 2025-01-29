@@ -1,7 +1,7 @@
 const { SlashCommandBuilder } = require('discord.js');
 const Axios = require(`axios`);
-const botinfo = require("/home/node/src/botinfo.json");
-const interCreate = require("/home/node/src/events/client/interactionCreate.js")
+const botinfo = require("D:/StanBot/src/botinfo.json");
+const interCreate = require("D:/StanBot/src/events/client/interactionCreate.js")
 const Noblox = require('noblox.js');
 const uuid  = require('uuid');
 const idempoticyKey = uuid.v4();

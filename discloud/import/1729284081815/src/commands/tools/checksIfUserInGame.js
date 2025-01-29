@@ -1,6 +1,6 @@
 const { SlashCommandBuilder } = require('discord.js');
 const Axios = require(`axios`);
-const botinfo = require("D:/StanBot/src/botinfo.json");
+const botinfo = require("/home/node/src/botinfo.json");
 
 
 module.exports = {
